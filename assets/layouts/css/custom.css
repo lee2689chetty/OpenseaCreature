@@ -1,0 +1,65 @@
+/* here you can put your own css to customize and override the theme */
+.card-icon > img
+{
+    width:100% !important;
+}
+
+.page-sidebar .page-sidebar-menu > li.active > a
+{
+    border-left:3px solid #E87E04 !important;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > i,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > i,
+.page-sidebar .page-sidebar-menu > li.active > a > i, .page-sidebar .page-sidebar-menu > li.active.open > a > i,
+.page-sidebar .page-sidebar-menu > li.active > a,     .page-sidebar .page-sidebar-menu > li.active.open > a
+{
+    color: #E87E04;
+}
+
+.portlet>.portlet-title>.nav-tabs
+{
+    float:left !important;
+}
+
+.tabbable-line>.nav-tabs>li.active
+{
+    border-bottom: 4px solid #E87E04;
+}
+
+.tabbable-line>.nav-tabs>li.open,.tabbable-line>.nav-tabs>li:hover {
+    background: 0 0;
+    border-bottom: 4px solid rgba(232, 126, 4, 0.46);
+}
+
+.pagination>li>a
+{
+    height: 30px !important;
+}
+
+/*div.dataTables_wrapper div.dataTables_filter label*/
+/*{*/
+    /*display: none !important;*/
+/*}*/
+
+.control-label
+{
+    font-size: 12px !important;
+}
+.chat-form .input-cont
+{
+    margin-right:60px;
+}
+.chat-form .btn-cont .btn
+{
+    margin-top:-65px;
+    position:relative;
+    float:right;
+    width: 58px;
+}
+
+.page-header.navbar
+{
+    background:#ffffff;
+    border-bottom:1px solid #e9ecf3;
+}
